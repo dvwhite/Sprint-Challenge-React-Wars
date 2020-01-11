@@ -26,13 +26,23 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+_David_: React JS is a library that was created at Facebook to simply DOM manipulation and to allow for richer, more sophisticated and more managemable user interfaces. React is also a way of reasoning about web applications, in which you create and compose components, state, and side effects.
+
 - [ ] What does it mean to _think_ in react?
+
+_David_: Thinking in react means having a mindset in which you think of the DOM, not as a series of variables which contain a DOM element referenced by `document.querySelector()`, but instead as a series of composible components. A component is a logical construct which represents a section of code, such as a Card, Header, Page, etc. React uses JSX and the virtual DOM to simplify the processes and overcome some of the challenges of using vanilla JS DOM manipulation. The result is a JavaScript file that uses minimal HTML, can intergrate fully with CSS as standalone, inline, or integrated stylesheets (styled components), and can embed JavaScript functions, variables, objects and expressions in the application.
 
 - [ ] Describe state.
 
+_David_: State is an object that contains references to what can change in the React application. In "stateful" components, there is a state property of the Component class. In functional components, we have learned to access and change state by taking 'slices of state' using the state hook. This is done by importing and using `useState()`. 
+
 - [ ] Describe props.
 
+_David_: Props is a variable (or object) that contains the properties passed down with the component that it will need to access at time of render, including any state. It can be named anything, but, by convention, it is named "props". Props drilling is how a parent component passes props down to child components, who in turn can pass them down child components, until the desired property is accessed and possibly updated by the component(s) that need access to it.
+
 - [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?
+
+_David_: Side effects are anything that affects or changes something outside of its particular scope. The effect hook is used to manage side effects of components, and is one of the tools that developers can use for that purpose.
 
 ## Project Set Up
 
