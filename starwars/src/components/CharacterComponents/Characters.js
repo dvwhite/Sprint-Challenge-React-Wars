@@ -21,9 +21,11 @@ const Characters = (props) => {
   if (!charState) return <h3>Loading...</h3>;
 
   return (
+    <Row className="h-100 justify-content-center full-height align-items-center">
       <CardDeck>
         {charState.map((char, index) => <Character key={index} data={char} />)}
       </CardDeck>
+    </Row>
   );
 };
 

@@ -11,8 +11,8 @@ const Character = ({data}) => {
       <Card body inverse style={{ backgroundColor: '#333', 
                                   borderColor: '#333', 
                                   width: '15em', 
-                                  height: '30em',
-                                  margin: '1em 0' }}>
+                                  height: '33em',
+                                  margin: '1em 1em' }}>
         <CardBody>
           <CardTitle><h4>{data.name}</h4></CardTitle>
           <hr></hr>
