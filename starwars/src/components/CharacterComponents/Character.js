@@ -8,9 +8,14 @@ import CardTxt from './../CardComponents/CardTxt';
 const Character = ({data}) => {
   return (
     <Col>
-      <Card body inverse style={{ backgroundColor: '#333', borderColor: '#333', width: '15em' }}>
+      <Card body inverse style={{ backgroundColor: '#333', 
+                                  borderColor: '#333', 
+                                  width: '15em', 
+                                  height: '30em',
+                                  margin: '1em 0' }}>
         <CardBody>
           <CardTitle><h4>{data.name}</h4></CardTitle>
+          <hr></hr>
           <CardTxt>{`Birth year: ${data.birth_year}`}</CardTxt>
           <CardTxt>{`Height: ${data.height}`}</CardTxt>
           <CardTxt>{`Mass: ${data.mass}`}</CardTxt>
