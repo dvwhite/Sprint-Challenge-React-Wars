@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const CardTitle = styled.h2`
-  font-size: 2rem;
+  font-size: 1rem;
   padding: 0;
   margin: 2%;
 
